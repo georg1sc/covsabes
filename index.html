@@ -10,15 +10,16 @@
   </head>
   <body>
     <img src="https://user-images.githubusercontent.com/32634026/119219376-967d4000-bae5-11eb-94be-8c7205dab804.png"/>
-    <h1>Text</p>
+    <h1>Text - 
     
     
     <script> 
-let url = 'https://www.example.com?ID=ASDF';
+let url = window.location.search;
 let params = (new URL(url)).searchParams;
-alert(params.get('ID'));
+params.get('ID'));
 
 </script>
+	    </p>
   </body>
 </html>
 
