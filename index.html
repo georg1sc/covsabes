@@ -9,14 +9,24 @@
       </style>
   </head>
   <body>
-  	<img src="https://user-images.githubusercontent.com/32634026/119219376-967d4000-bae5-11eb-94be-8c7205dab804.png"/>
-		<h1>
-			<script> 
-				let url = window.location.href;
-				let params = (new URL(url)).searchParams;
-				document.write(params.get('ID'))
-			</script>
-  	</h1>
+  	<table>
+			<tr>
+				<td>
+					<img src="https://user-images.githubusercontent.com/32634026/119219376-967d4000-bae5-11eb-94be-8c7205dab804.png"/>
+				</td>  
+			</tr>
+			<tr>
+				<td>
+					<h1>
+						<script> 
+							let url = window.location.href;
+							let params = (new URL(url)).searchParams;
+							document.write(params.get('ID'))
+						</script>
+					</h1>
+				</td>
+			</tr>
+  	</table>
   </body>
 </html>
 
