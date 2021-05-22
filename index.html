@@ -1,9 +1,24 @@
 
 <html>
-  <head></head>
+  <head>
+    <style>
+      h1 {
+	      font-family:helvetica;
+        text-align:center;
+      }
+      </style>
+  </head>
   <body>
     <img src="https://user-images.githubusercontent.com/32634026/119219376-967d4000-bae5-11eb-94be-8c7205dab804.png"/>
-    <p>Text</p>
+    <h1>Text</p>
+    
+    
+    <script> 
+let url = 'https://www.example.com?name=n1&name=n2';
+let params = (new URL(url)).searchParams;
+alert(params.get('ID'));
+
+</script>
   </body>
 </html>
 
